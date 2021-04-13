@@ -29,7 +29,7 @@ api.add_namespace(person, '/person')
 api.add_namespace(visit, '/visit')
 api.add_namespace(search, '/search')
 api.add_namespace(ask, '/ask')
-app.run()
 
-# if __name__=='__main__':
-#     app.run()
+
+if __name__=='__main__':
+    app.run()
